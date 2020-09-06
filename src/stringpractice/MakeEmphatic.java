@@ -1,13 +1,12 @@
+package stringpractice;
+
+import java.util.Scanner;
+
 /***
  * A class for manipulating strings so that they are properly emphatic.
  *
  * @author Abigail Marsh, Fall 2019
  */
-
-package stringpractice;
-
-import java.util.Scanner;
-
 public class MakeEmphatic {
 
     /***
@@ -19,7 +18,6 @@ public class MakeEmphatic {
      * @return The input string, in ALL CAPS!!!
      */
     public static String makeEmphatic(String input) {
-
         return input;
     }
 

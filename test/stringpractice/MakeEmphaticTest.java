@@ -11,7 +11,6 @@ public class MakeEmphaticTest {
         assertEquals("EMPHASIS!!!", MakeEmphatic.makeEmphatic("emphasis"));
     }
 
-
     @Test
     public void shortStringTest() {
         assertEquals("I!!!", MakeEmphatic.makeEmphatic("i"));

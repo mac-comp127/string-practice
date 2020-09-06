@@ -1,13 +1,12 @@
+package stringpractice;
+
+import java.util.Scanner;
+
 /***
  * A class for manipulating strings so that they are properly capitalized.
  *
  * @author Abigail Marsh, Fall 2019
  */
-
-package stringpractice;
-
-import java.util.Scanner;
-
 public class UppercaseFirstLetter {
 
     /***
