@@ -32,5 +32,7 @@ public class UppercaseFirstLetter {
         String input = scan.nextLine();
 
         System.out.println(uppercaseFirstLetter(input));
+
+        scan.close();
     }
 }

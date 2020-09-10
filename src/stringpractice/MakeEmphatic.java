@@ -32,5 +32,7 @@ public class MakeEmphatic {
         String input = scan.nextLine();
 
         System.out.println(makeEmphatic(input));
+
+        scan.close();
     }
 }

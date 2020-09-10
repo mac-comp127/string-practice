@@ -32,5 +32,7 @@ public class MakeSnake {
         String input = scan.nextLine();
 
         System.out.println(makeSnake(input));
+
+        scan.close();
     }
 }
