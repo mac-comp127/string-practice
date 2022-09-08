@@ -16,8 +16,8 @@ public class UnicodeExperiments {
     private static void printCodepoints(String str) {
         System.out.println("------ Codepoints in \"" + str + "\" ------");
         str.codePoints().forEach(codepoint -> {
-            System.out.printf
-                ("%s\t%06d %s\n",
+            System.out.printf(
+                "%s\t%6d %s\n",
                 Character.toString(codepoint),
                 codepoint,
                 Character.getName(codepoint));
