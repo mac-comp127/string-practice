@@ -7,6 +7,8 @@ public class UnicodeExperiments {
         String s2 = "tiếng Việt";
         String s3 = "😅";
         String s4 = "😵‍💫";
+        String s5 = "MAC МᎪ𝖢";
+        String s6 = "ঙቈ༆ꀅㄡ꜂əꫤ𐀜𑈈𓀘𝄞🁓🃊≆∭⨁↖︎           ​  　␠";
     }
 
     /**
