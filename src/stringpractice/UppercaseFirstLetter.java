@@ -10,19 +10,18 @@ import java.util.Scanner;
 public class UppercaseFirstLetter {
 
     /***
-     * A method for converting the first letter of a string to uppercase.
-     * TODO: Implement this method
+     * Converts the first letter of the given string to uppercase.
      *
      * @param input A string to be modified
      * @return The input string, but with the first letter now capitalized
      */
     public static String uppercaseFirstLetter(String input) {
-
-        return input;
+        // TODO: Implement this method
+        return input.toUpperCase();
     }
 
     /***
-     * Run this program to test your method on different input strings
+     * Run this program to test your method on different input strings.
      */
     public static void main(String[] args) {
         System.out.println("--- short string test ---");

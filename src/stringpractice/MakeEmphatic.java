@@ -10,19 +10,19 @@ import java.util.Scanner;
 public class MakeEmphatic {
 
     /***
-     * A method that takes in a string, and returns the emphasized version of that string.
+     * Takes in a string, and returns the emphasized version of that string.
      * Emphasized strings should be in ALL CAPS and use TOO MANY EXCLAMATION POINTS!!!
-     * TODO: Write this method
      *
      * @param input Any string
      * @return The input string, in ALL CAPS!!!
      */
     public static String makeEmphatic(String input) {
+        // TODO: Implement this method
         return input;
     }
 
     /***
-     * Run this program to test your method on different input strings
+     * Run this program to test your method on different input strings.
      */
     public static void main(String[] args) {
         System.out.println("--- long string test ---");

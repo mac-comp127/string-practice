@@ -10,14 +10,13 @@ import java.util.Scanner;
 public class MakeSnake {
 
     /***
-     * A method that modifiesss ssstringsss ssso they are sssibilant
-     * TODO: Implement this method
+     * Modifiesss ssstringsss ssso they are sssibilant.
      *
      * @param input Any string
-     * @return The sssame ssstring, but with more hissing
+     * @return The sssame ssstring, but with more hissssssing
      */
     public static String makeSnake(String input) {
-
+        // TODO: Implement this method
         return input;
     }
 
