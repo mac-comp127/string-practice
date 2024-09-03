@@ -22,17 +22,29 @@ public class MakeSnake {
     }
 
     /***
-     * Run this program to tessst your method on different input ssstringsss
+     * Run this program to tessst your method on different input ssstringsss.
      */
     public static void main(String[] args) {
+        System.out.println("--- mixed Ss test ---");
+        System.out.println("Expected: SSSnake sssoundsss");
+        System.out.println("  Actual: " + makeSnake("Snake sounds"));
+        System.out.println();
+
+        System.out.println("--- all whitespace test ---");
+        System.out.println("Expected:   ");
+        System.out.println("  Actual: " + makeSnake("  "));
+        System.out.println();
+
+        System.out.println("--- empty string test ---");
+        System.out.println("Expected: ");
+        System.out.println("  Actual: " + makeSnake(""));
+        System.out.println();
+
+        System.out.println("--- interactive test ---");
         Scanner scan = new Scanner(System.in);
-
         System.out.println("Enter sssomething you would like to sssnakeify: ");
-
         String input = scan.nextLine();
-
         System.out.println(makeSnake(input));
-
         scan.close();
     }
 }

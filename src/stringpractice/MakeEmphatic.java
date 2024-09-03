@@ -25,14 +25,26 @@ public class MakeEmphatic {
      * Run this program to test your method on different input strings
      */
     public static void main(String[] args) {
+        System.out.println("--- long string test ---");
+        System.out.println("Expected: EMPHASIS!!!");
+        System.out.println("  Actual: " + makeEmphatic("emphasis"));
+        System.out.println();
+
+        System.out.println("--- short string test ---");
+        System.out.println("Expected: I!!!");
+        System.out.println("  Actual: " + makeEmphatic("i"));
+        System.out.println();
+
+        System.out.println("--- empty string test ---");
+        System.out.println("Expected: !!!");
+        System.out.println("  Actual: " + makeEmphatic(""));
+        System.out.println();
+
+        System.out.println("--- interactive test ---");
         Scanner scan = new Scanner(System.in);
-
         System.out.println("Enter something you would like to emphasize: ");
-
         String input = scan.nextLine();
-
         System.out.println(makeEmphatic(input));
-
         scan.close();
     }
 }
